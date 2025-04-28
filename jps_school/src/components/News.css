@@ -1,0 +1,92 @@
+/* General Styling */
+.home-container {
+    font-family: "Poppins", sans-serif;
+    padding: 30px;
+    background: linear-gradient(135deg, #f0f4f8, #d9e4ea);
+  }
+  
+  /* Headings */
+  h2 {
+    font-size: 34px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+  
+  /* Programs Section */
+  .programs-section {
+    margin-bottom: 50px;
+  }
+  
+  .programs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+  }
+  
+  .program-card {
+    background: linear-gradient(135deg, #ffffff, #f7f9fc);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .program-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+  }
+  
+  .program-card .program-icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #3498db;
+  }
+  
+  .program-card h3 {
+    font-size: 22px;
+    color: #34495e;
+    margin-bottom: 12px;
+    font-weight: 600;
+  }
+  
+  .program-card p {
+    font-size: 16px;
+    color: #7f8c8d;
+    line-height: 1.6;
+  }
+  
+  /* Explore Button */
+  .explore-button {
+    display: block;
+    margin: 30px auto 0;
+    padding: 12px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .explore-button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Spacing and Dividers */
+  .programs-section::after {
+    content: "";
+    display: block;
+    margin: 40px auto;
+    width: 60%;
+    height: 2px;
+    background-color: #bdc3c7;
+  }
+  

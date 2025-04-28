@@ -1,0 +1,76 @@
+/* Timetable Container */
+.timetable-container {
+    max-width: 900px;
+    margin: 20px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Dropdown Menu */
+  .standard-dropdown {
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: background 0.3s ease;
+  }
+  
+  /* Dropdown Hover & Active Effects */
+  .standard-dropdown:hover {
+    background: #2980b9;
+  }
+  
+  .standard-dropdown:focus {
+    background: #1f6690;
+  }
+  
+  /* Dropdown Options */
+  .standard-dropdown option {
+    font-size: 14px;
+    font-weight: normal;
+    background: white;
+    color: #333;
+    padding: 10px;
+  }
+  
+  /* Timetable Title & Layout */
+  .timetable-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  /* Timetable Table */
+  .timetable {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    background: white;
+  }
+  
+  .timetable th, .timetable td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .timetable th {
+    background: #3498db;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .timetable tr:nth-child(even) {
+    background: #f2f2f2;
+  }
+  
+  .timetable tr:hover {
+    background: rgba(52, 152, 219, 0.2);
+  }
+  

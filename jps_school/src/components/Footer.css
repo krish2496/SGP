@@ -1,0 +1,143 @@
+/* Footer Container */
+.footer-container {
+  background-color: #1a1a2e;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Footer Top Section */
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+/* Footer Section Styling */
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+  margin: 10px 20px;
+}
+
+.footer-section h3 {
+  font-size: 20px;
+  color: #0066cc;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.footer-section p {
+  font-size: 16px;
+  color: #ffffff;
+  margin: 8px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.quick-links .link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.quick-links .link:hover {
+  color: #0066cc;
+  text-decoration: underline;
+}
+
+/* Social Icons */
+.icons-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.icon {
+  font-size: 28px;
+  color: #ffffff;
+  transition: color 0.3s, transform 0.3s;
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: #0066cc;
+  transform: scale(1.1);
+}
+
+/* Footer Bottom Section */
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: 20px;
+  font-size: 14px;
+}
+
+.footer-bottom p {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #cccccc;
+}
+
+.links-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.link {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 5px;
+  font-size: 14px;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: #0066cc;
+}
+
+.separator {
+  color: #ffffff;
+  margin: 0 8px;
+}
+
+/* Footer Icons in Contact Section */
+.footer-icon {
+  color: #0066cc;
+  font-size: 18px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-top {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-section {
+    margin: 20px 0;
+  }
+
+  .icons-container {
+    gap: 10px;
+  }
+
+  .icon {
+    font-size: 24px;
+  }
+}

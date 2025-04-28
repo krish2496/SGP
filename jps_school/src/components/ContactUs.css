@@ -1,0 +1,147 @@
+.contact-us-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 50px 20px;
+  color: #333;
+  background-color: #f8fafc;
+}
+
+.projects-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #012a4a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0 auto 20px;
+  cursor: pointer;
+}
+
+.button-icon {
+  margin-right: 8px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #333;
+}
+
+h1 .highlight {
+  font-weight: normal;
+  color: #555; /* Subtle gray for the highlight */
+}
+
+p {
+  font-size: 1rem;
+  color: #6b7280; /* Subtle gray for text */
+  max-width: 600px;
+  margin: 10px auto;
+  line-height: 1.6;
+}
+
+.contact-us-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 20px;
+}
+
+.contact-info {
+  flex: 1;
+  min-width: 300px;
+  margin-right: 20px;
+  text-align: left;
+}
+
+.contact-info h2 {
+  color: #012a4a;
+  margin-bottom: 10px;
+}
+
+.contact-info h3 {
+  margin-top: 20px;
+  color: #333;
+}
+
+.sales-contact p {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.whatsapp-button {
+  background-color: #25d366;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.whatsapp-button:hover {
+  background-color: #1da851;
+}
+
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+  color: #012a4a;
+  margin-bottom: 20px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #f8fafc;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #012a4a;
+  outline: none;
+}
+
+.contact-form button {
+  background-color: #012a4a;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #004a75;
+}
+.address p{
+  font-family: poppins;
+  text-align: left;
+}

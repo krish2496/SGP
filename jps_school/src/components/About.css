@@ -1,0 +1,105 @@
+/* Apply overall styles with a school-friendly theme */
+.about-container {
+  font-family: "Poppins", "Open Sans", sans-serif;
+  line-height: 1.6;
+  color: #333;
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  background: #f3f6f9;
+}
+
+/* Title Styling */
+.about-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #007bff;
+  text-align: center;
+  padding: 10px 0;
+  text-transform: uppercase;
+}
+
+/* Paragraph Styling */
+.about-text {
+  font-size: 1.1rem;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+/* Section Titles */
+.section-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #28a745;
+  border-bottom: 3px solid #28a745;
+  padding-bottom: 5px;
+  margin-top: 30px;
+}
+
+/* Highlighted Title */
+.highlight-title {
+  color: #dc3545;
+  border-bottom: 3px solid #dc3545;
+}
+
+/* Facilities List */
+.facilities-list {
+  list-style: none;
+  padding: 0;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Facility List Items */
+.facilities-list li {
+  font-size: 1rem;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+}
+
+/* Facility Icons */
+.facilities-list span {
+  font-weight: bold;
+  margin-right: 10px;
+  color: #007bff;
+  font-size: 1.2rem;
+}
+
+/* Add hover effect */
+.facilities-list li:hover {
+  background: rgba(0, 123, 255, 0.1);
+  border-radius: 5px;
+  transition: 0.3s;
+  padding-left: 10px;
+}
+
+/* Key Highlights Section */
+.about-highlights {
+  background: linear-gradient(135deg, #fce3e3, #ffd6d6);
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-container {
+    padding: 15px;
+  }
+
+  .about-title {
+    font-size: 1.8rem;
+  }
+
+  .facilities-list li {
+    font-size: 0.95rem;
+  }
+}

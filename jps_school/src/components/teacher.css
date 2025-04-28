@@ -1,0 +1,112 @@
+/* Overall container for the teacher section */
+.teacher-container {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f7f9fc; /* Light background to give a professional feel */
+}
+
+/* Title for the teacher section */
+.teacher-title {
+  font-size: 2.8em;
+  color: #1c2a3d; /* Darker, professional color */
+  margin-bottom: 40px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: 'Arial', sans-serif;
+}
+
+/* List container for teacher cards */
+.teacher-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* Individual teacher card styling */
+.teacher-card {
+  background: #ffffff; /* White background for a clean look */
+  border-radius: 12px;
+  box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  padding: 25px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  border: 1px solid #ddd; /* Soft border */
+  margin-bottom: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Hover effect on the teacher card */
+.teacher-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 16px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Teacher icon styling */
+.teacher-icon {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background-color: white; /* White background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 3px solid #ddd; /* Border for the icon */
+}
+
+.teacher-icon-img {
+  width: 60%; /* Adjust the icon size */
+  height: 60%;
+  object-fit: contain;
+}
+
+/* Info section within the teacher card */
+.teacher-info {
+  font-size: 1.15em;
+  color: #333;
+}
+
+/* Teacher name styling */
+.teacher-info h2 {
+  font-size: 1.6em;
+  color: #1a2533;
+  margin-bottom: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* Teacher description text */
+.teacher-info p {
+  margin: 5px 0;
+  font-size: 1.1em;
+  color: #6c7a8a;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+/* Optional: Responsive design for mobile devices */
+@media (max-width: 768px) {
+  .teacher-title {
+    font-size: 2.2em;
+    margin-bottom: 30px;
+  }
+
+  .teacher-list {
+    gap: 20px;
+  }
+
+  .teacher-card {
+    width: 280px;
+  }
+
+  .teacher-info h2 {
+    font-size: 1.4em;
+  }
+
+  .teacher-info p {
+    font-size: 1em;
+  }
+}

@@ -1,0 +1,67 @@
+.payment-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 25px 30px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.payment-container h2 {
+  font-size: 26px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.payment-container p {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #444;
+}
+
+.bank-details {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.bank-details label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 10px 0 5px;
+  color: #555;
+}
+
+.bank-details input,
+.bank-details select {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border 0.3s;
+}
+
+.bank-details input:focus,
+.bank-details select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.confirm-button {
+  margin-top: 20px;
+  background: #007bff;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.confirm-button:hover {
+  background: #0056b3;
+}

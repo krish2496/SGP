@@ -1,0 +1,82 @@
+.navbar-container {
+    font-family: "Arial", sans-serif;
+  }
+  
+  .navbar-top {
+    background-color: #0066cc;
+    padding: 5px 20px;
+  }
+  
+  .navbar-links {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-links li {
+    margin-left: 20px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .navbar-links li:hover {
+    text-decoration: underline;
+  }
+  
+  .navbar-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-top: 1px solid #ccc;
+    background-color: white;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo img {
+    width: 50px;
+    margin-right: 10px;
+  }
+  
+  .navbar-logo span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0066cc;
+  }
+  
+  .navbar-logo p {
+    margin: 0;
+    font-size: 12px;
+    color: #444;
+  }
+  
+  .navbar-menu {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-menu li {
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .navbar-menu .highlight {
+    color: #00cc66; /* Green for the "Research" menu item */
+  }
+  
+  .navbar-menu li:hover {
+    text-decoration: underline;
+  }
+  

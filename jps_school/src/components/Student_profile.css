@@ -1,0 +1,44 @@
+.profile-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.profile-section {
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  border: 2px solid #e0e0e0;
+  text-align: center;
+  width: 300px; /* Adjust width to match teacher cards */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.profile-section h3 {
+  font-size: 18px;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.profile-section p {
+  font-size: 14px;
+  color: #555;
+  margin: 6px 0;
+}
+
+.profile-icon {
+  font-size: 40px;
+  color: #4a90e2;
+  margin-bottom: 10px;
+}

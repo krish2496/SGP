@@ -1,0 +1,119 @@
+export default Login 
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fa;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .illustration {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .graphic img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .login-form {
+    flex: 1;
+    max-width: 400px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .icon-only {
+    font-size: 40px;
+    color: #007bff;
+  }
+  
+  h2 {
+    text-align: center;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  p {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .btn-submit {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .btn-submit:hover {
+    background: #0056b3;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .social-icon {
+    font-size: 20px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .social-icon.fb:hover {
+    color: #3b5998;
+  }
+  
+  .social-icon.insta:hover {
+    color: #c13584;
+  }
+  
+  .social-icon.youtube:hover {
+    color: #ff0000;
+  }
